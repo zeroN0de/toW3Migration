@@ -10,10 +10,15 @@
     EOF
 
 ## Step 3.
+    node index.js
+
+## Step 4.
 ### Find and select the region where your S3 is located.
 ### (Currently, there are only ap-northease-2, us-east-1 and us-east-2).
 
-## Step 4.
+## Step 5.
 ### Selecting an S3 bucket for that region will start the download.
 ### Try going to 
     cd $HOME/.aws/downloads.
+    
+    
