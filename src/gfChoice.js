@@ -1,6 +1,7 @@
 import inquirer from "inquirer";
 import accounts from "./accounts.js";
 import initChoice from "./initChoice.js";
+import spawnGo from "./spawnGo.js";
 
 function gfChoice() {
   const gfChoices = ["Create Account", "Create Bucket", "Upload Obj", "Back"];
@@ -20,8 +21,8 @@ function gfChoice() {
         accounts();
         break;
       case "Create Bucket":
-        console.log("This is still before implementation.");
-        gfChoice();
+        spawnGo();
+
         break;
       case "Upload Obj":
         console.log("This is still before implementation.");
