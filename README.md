@@ -1,1 +1,2 @@
-# toW3Migration
+## Step 1. 
+### (root dir) npm install
